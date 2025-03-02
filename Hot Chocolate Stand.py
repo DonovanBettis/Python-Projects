@@ -16,7 +16,6 @@ print("Amount Due = $%.2f" % Total)
 
 MoneyPaid = float(input("Enter the amount of money paid: "))
 
-#learned how to use while. Added to make transaction more realistic
 while MoneyPaid < Total:
     print("Insufficient funds. Please attempt payment again")
     MoneyPaid = float(input("Enter the amount of money paid: "))
